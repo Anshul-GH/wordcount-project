@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This is HTML FAM !!</title>
+    <h1>WORD COUNT</h1>
+    <!-- {{hithere}} -->
+    <form action="{% url 'count' %}">
+        <textarea cols="40" rows="10" name="fulltext"></textarea>
+        <br />
+        <input type="submit" value="Count!" />
+    </form>
+
+    <br />
+    <a href="{% url 'about' %}">About</a>
+
+</head>
+<body>
+
+</body>
+</html>
